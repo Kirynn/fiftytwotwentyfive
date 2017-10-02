@@ -1,0 +1,17 @@
+{
+    "name": "fiftytwotwentyfive-builder",
+    "version": "1.0.0",
+    "dependencies": {
+        "gulp": "latest",
+        "gulp-sass": "latest",
+        "gulp-autoprefixer": "latest",
+        "gulp-sourcemaps": "latest",
+        "gulp-sass-lint": "latest",
+        "jshint": "latest",
+        "gulp-jshint": "latest"
+    },
+    "scripts": {
+        "build": "gulp sass::watch",
+        "jslint": "gulp js::lint"
+    }
+}
